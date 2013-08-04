@@ -23,14 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A8EF27D17AE7B9C0069BDAE /* J2MObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J2MObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8EF27D17AE7B9C0069BDAE /* J2MObjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J2MObjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8EF28017AE7B9C0069BDAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A8EF28217AE7B9C0069BDAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A8EF28417AE7B9C0069BDAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6A8EF28817AE7B9C0069BDAE /* J2MObject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "J2MObject-Info.plist"; sourceTree = "<group>"; };
+		6A8EF28817AE7B9C0069BDAE /* J2MObjectDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "J2MObjectDemo-Info.plist"; sourceTree = "<group>"; };
 		6A8EF28A17AE7B9C0069BDAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A8EF28C17AE7B9C0069BDAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A8EF28E17AE7B9C0069BDAE /* J2MObject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "J2MObject-Prefix.pch"; sourceTree = "<group>"; };
+		6A8EF28E17AE7B9C0069BDAE /* J2MObjectDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "J2MObjectDemo-Prefix.pch"; sourceTree = "<group>"; };
 		6A8EF28F17AE7B9C0069BDAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A8EF29017AE7B9C0069BDAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6A8EF29217AE7B9C0069BDAE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		6A8EF27E17AE7B9C0069BDAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A8EF27D17AE7B9C0069BDAE /* J2MObject.app */,
+				6A8EF27D17AE7B9C0069BDAE /* J2MObjectDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,17 +99,16 @@
 				6A8EF2A317AE7BE00069BDAE /* J2MObject.h */,
 				6A8EF2A417AE7BE00069BDAE /* J2MObject.m */,
 			);
-			name = J2MObjectDemo;
-			path = J2MObject;
+			path = J2MObjectDemo;
 			sourceTree = "<group>";
 		};
 		6A8EF28717AE7B9C0069BDAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A8EF28817AE7B9C0069BDAE /* J2MObject-Info.plist */,
+				6A8EF28817AE7B9C0069BDAE /* J2MObjectDemo-Info.plist */,
 				6A8EF28917AE7B9C0069BDAE /* InfoPlist.strings */,
 				6A8EF28C17AE7B9C0069BDAE /* main.m */,
-				6A8EF28E17AE7B9C0069BDAE /* J2MObject-Prefix.pch */,
+				6A8EF28E17AE7B9C0069BDAE /* J2MObjectDemo-Prefix.pch */,
 				6A8EF29217AE7B9C0069BDAE /* Default.png */,
 				6A8EF29417AE7B9C0069BDAE /* Default@2x.png */,
 				6A8EF29617AE7B9C0069BDAE /* Default-568h@2x.png */,
@@ -139,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A8EF27C17AE7B9C0069BDAE /* J2MObject */ = {
+		6A8EF27C17AE7B9C0069BDAE /* J2MObjectDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A8EF2A017AE7B9C0069BDAE /* Build configuration list for PBXNativeTarget "J2MObject" */;
+			buildConfigurationList = 6A8EF2A017AE7B9C0069BDAE /* Build configuration list for PBXNativeTarget "J2MObjectDemo" */;
 			buildPhases = (
 				6A8EF27917AE7B9C0069BDAE /* Sources */,
 				6A8EF27A17AE7B9C0069BDAE /* Frameworks */,
@@ -151,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = J2MObject;
+			name = J2MObjectDemo;
 			productName = J2MObject;
-			productReference = 6A8EF27D17AE7B9C0069BDAE /* J2MObject.app */;
+			productReference = 6A8EF27D17AE7B9C0069BDAE /* J2MObjectDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +164,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Limboy;
 			};
-			buildConfigurationList = 6A8EF27817AE7B9C0069BDAE /* Build configuration list for PBXProject "J2MObject" */;
+			buildConfigurationList = 6A8EF27817AE7B9C0069BDAE /* Build configuration list for PBXProject "J2MObjectDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -177,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A8EF27C17AE7B9C0069BDAE /* J2MObject */,
+				6A8EF27C17AE7B9C0069BDAE /* J2MObjectDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -284,9 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "J2MObject/J2MObject-Prefix.pch";
-				INFOPLIST_FILE = "J2MObject/J2MObject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "J2MObjectDemo/J2MObjectDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/J2MObjectDemo/J2MObjectDemo-Info.plist";
+				PRODUCT_NAME = J2MObjectDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -295,9 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "J2MObject/J2MObject-Prefix.pch";
-				INFOPLIST_FILE = "J2MObject/J2MObject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "J2MObjectDemo/J2MObjectDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/J2MObjectDemo/J2MObjectDemo-Info.plist";
+				PRODUCT_NAME = J2MObjectDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -305,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A8EF27817AE7B9C0069BDAE /* Build configuration list for PBXProject "J2MObject" */ = {
+		6A8EF27817AE7B9C0069BDAE /* Build configuration list for PBXProject "J2MObjectDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A8EF29E17AE7B9C0069BDAE /* Debug */,
@@ -314,7 +313,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A8EF2A017AE7B9C0069BDAE /* Build configuration list for PBXNativeTarget "J2MObject" */ = {
+		6A8EF2A017AE7B9C0069BDAE /* Build configuration list for PBXNativeTarget "J2MObjectDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A8EF2A117AE7B9C0069BDAE /* Debug */,
