@@ -63,7 +63,7 @@
 		6A8EF27417AE7B9C0069BDAE = {
 			isa = PBXGroup;
 			children = (
-				6A8EF28617AE7B9C0069BDAE /* J2MObject */,
+				6A8EF28617AE7B9C0069BDAE /* J2MObjectDemo */,
 				6A8EF27F17AE7B9C0069BDAE /* Frameworks */,
 				6A8EF27E17AE7B9C0069BDAE /* Products */,
 			);
@@ -87,7 +87,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A8EF28617AE7B9C0069BDAE /* J2MObject */ = {
+		6A8EF28617AE7B9C0069BDAE /* J2MObjectDemo */ = {
 			isa = PBXGroup;
 			children = (
 				6A8EF2A617AE8A5F0069BDAE /* Classes */,
@@ -99,6 +99,7 @@
 				6A8EF2A317AE7BE00069BDAE /* J2MObject.h */,
 				6A8EF2A417AE7BE00069BDAE /* J2MObject.m */,
 			);
+			name = J2MObjectDemo;
 			path = J2MObject;
 			sourceTree = "<group>";
 		};
