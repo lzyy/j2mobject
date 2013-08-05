@@ -147,7 +147,10 @@
         objc_property_t property = properties[i];
         char *propertyType = property_copyAttributeValue(property, "T");
         NSString *propertyName = [NSString stringWithFormat:@"%s", property_getName(property)];
-        NSString *iVarName = [NSString stringWithFormat:@"%s", property_copyAttributeValue(property, "V")];
+		char *iVar = property_copyAttributeValue(property, "V");
+		NSString *iVarName = [NSString stringWithFormat:@"%s", iVar];
+		free(iVar);
+
         
         switch (propertyType[0]) {
             case 'i': // int
