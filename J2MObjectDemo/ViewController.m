@@ -60,9 +60,10 @@
         News *news = [[News alloc] initWithDictionary:dict];
         NSLog(@"news.title:%@", news.title);
         NSLog(@"news.gaPrefix:%@", news.gaPrefix);
-        for (NewsItem *newsItem in news.items) {
-            NSLog(@"newsItems.imageSource:%@", newsItem.imageSource);
-        }
+        NSLog(@"news.items:%@", news.items);
+//        for (NewsItem *newsItem in news.items) {
+//            NSLog(@"newsItems.imageSource:%@", newsItem.imageSource);
+//        }
     }
 }
 @end

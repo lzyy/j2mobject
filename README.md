@@ -17,6 +17,18 @@ J2MObject implement `NSCopying`, `NSCoding` out of box
 ------------------------------------------------------
 it means you can copy, archive/unarchive model object that inherit from `J2MObject`
 
+J2MObject make debug easier
+---------------------------
+There is a builtin NSObject category called `autoDescription`. `J2MObject` use it in `description` method, so when you do 
+```
+NSLog(@"user:%@", user);
+```
+
+it will output something like:
+
+```
+User {ID = 39; username = limboy, ...}
+```
 
 J2MObject automatically set right type for you
 ----------------------------------------------

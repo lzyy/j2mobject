@@ -39,6 +39,12 @@
 		const char * property_name = property_getName(property);
         
 		NSString * propertyName = [NSString stringWithCString:property_name encoding:NSASCIIStringEncoding];
+        
+        // don't output jsonData
+        if ([propertyName isEqualToString:@"jsonData"]) {
+            continue;
+        }
+        
 		if (propertyName) { // and if name is ok, we are getting value using KVC
 			id value = [self valueForKey:propertyName];
             
