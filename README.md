@@ -1,3 +1,9 @@
+## Update
+
+use [JSONModel](https://github.com/icanzilb/JSONModel/) instead
+
+---
+
 Make it easier to convert JSON data to Objective-C Model object
 ===============================================================
 
